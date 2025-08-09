@@ -24,7 +24,7 @@ resource "aws_db_instance" "rds_db" {
   deletion_protection                   = false
   domain                                = null
   domain_auth_secret_arn                = null
-  domain_dns_ips                        = []
+  #domain_dns_ips                        = []
   domain_fqdn                           = null
   domain_iam_role_name                  = null
   domain_ou                             = null
